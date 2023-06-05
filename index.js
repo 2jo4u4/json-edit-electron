@@ -7,7 +7,8 @@ const createWindow = () => {
   });
 
   win.loadFile("index.html").finally(() => {
-    win.webContents.openDevTools();
+    // // open dev tools
+    // win.webContents.openDevTools();
   });
 };
 
